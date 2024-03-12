@@ -1,3 +1,64 @@
 <resources>
     <string name="app_name">MindMesh</string>
+
+    <!--region Welcome messages -->
+    <string name="register_welcome">Welcome to MindMesh.\n Create an account right now and get connected.</string>
+    <string name="ad_welcome">MindMesh users are the first to know. Stay tuned.</string>
+    <!--endregion-->
+
+    <!--region Auth texts -->
+    <string name="email_label">Email</string>
+    <string name="username_label">Username</string>
+    <string name="password_label">Password</string>
+    <string name="confirm_password_label">Confirm your password</string>
+    <string name="first_name_label">First name</string>
+    <string name="last_name_label">Last name</string>
+    <string name="select_course">Select your course</string>
+    <string name="select_grade">Select your grade</string>
+
+    <string name="successful_auth">Your account is up to set. You may start connecting</string>
+
+    <!--region Error messages -->
+    <string name="empty_field">This field cannot be empty</string>
+    <string name="invalid_email">Invalid email</string>
+    <string name="email_already_taken">This email is already taken by another user</string>
+    <string name="username_already_taken">This username is already taken by another user</string>
+    <string name="unmatched_password">Passwords don\'t match</string>
+    <string name="an_error_occurred">An error occurred. Check your internet connection or try again later</string>
+    <string name="server_error">Server error</string>
+    <string name="connection_error">Connection error. Check your internet connection and try again</string>
+    <!--endregion-->
+    <!--endregion-->
+
+    <!--region Text Buttons -->
+    <string name="cancel_btn">Cancel</string>
+    <string name="next_btn">Next</string>
+    <string name="continue_btn">Continue</string>
+    <string name="done_btn">Done</string>
+    <string name="finish_btn">Finish</string>
+    <string name="login_btn">Login</string>
+    <string name="sign_btn">Sign up</string>
+    <string name="finish_registration_btn">Finish registration</string>
+    <string name="have_an_account_login">Have an account? Log in</string>
+    <string name="do_not_have_an_account_login">Don\'t have an account? Sign up</string>
+    <!--endregion-->
+
+
+    <!--region Courses and grades available -->
+    <string-array name="courses">
+        <item>Accounting</item>
+        <item>Finances</item>
+        <item>DP</item>
+        <item>Informatics</item>
+        <item>Human Resources Management</item>
+    </string-array>
+
+    <integer-array name="grades" translatable="false">
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+    </integer-array>
+    <!--endregion-->
+
 </resources>
